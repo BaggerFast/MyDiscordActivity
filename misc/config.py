@@ -3,4 +3,6 @@ from typing import Final
 
 
 class Config:
-    BOT_TOKEN: Final = os.getenv('BOT_TOKEN', 'define_me')
+    BOT_ID: Final = os.getenv('BOT_ID', 'define_me')
+    ANIM_TIME_OUT: int = 2
+    CLIENT_TIME_OUT: int = 30
